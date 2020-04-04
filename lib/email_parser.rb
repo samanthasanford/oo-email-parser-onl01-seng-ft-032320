@@ -13,7 +13,5 @@ end
 def parse
   new_email = email_address.split(/[,\s]+/)
 end
-  new_email.flatten.uniq
-end
 
 end #close class
